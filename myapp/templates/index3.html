@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% load static %}
+
+{% block content %}
+    <h4>Original Image: </h4>
+    <img src="{{data.image.url}}" alt="image not found" height="400px">
+    <br>
+    <h4>Detected Image: </h4>
+    <img src="{{data2}}" alt="image not found" height="400px">
+{% endblock %}
