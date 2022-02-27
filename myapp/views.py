@@ -7,6 +7,7 @@ from .models import *
 from django.core.files.storage import FileSystemStorage
 from yolov5 import detect
 from django.shortcuts import render
+import pyrebase
 
 # rest of the code above
 # Below is the post method of a 
